@@ -10,19 +10,11 @@
     <body>
         <div id="wrapper">
             <div id="container">
-              <header>Header</header>
+              <header>Beritaku</header>
               <nav>
                   <ul>
-                      <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Artikel</a>
-                          <ul class="submenu">
-                              <li><a href="#">Sains</a></li>
-                              <li><a href="#">Bola</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="video.html">Video</a></li>
-                        <li><a href="kontak.html">Kontak</a></li>
-                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/settings">Settings</a></li>
                   </ul>
                 </nav>
                 {{ $slot }}

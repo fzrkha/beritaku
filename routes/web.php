@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', App\Livewire\Berita\Index::class)->name('berita.index');
+Route::get('/settings', App\Livewire\Berita\Settings::class)->name('berita.settings');
